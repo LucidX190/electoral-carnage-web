@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "game": "Electoral Carnage",
+  "company": "BombSequiturGames",
+  "unityVersion": "6000.4.0f1",
+  "note": "WebGL release build (Brotli, decompression fallback). Files larger than maxPartSize are split into byte-exact parts; concatenate the parts of a split file in order to get the original file.",
+  "maxPartSize": 8000000,
+  "files": [
+    {
+      "path": "Build/WebGL-release.framework.js.unityweb",
+      "size": 83257,
+      "sha256": "48eba8254b1091ab0b02fee39edc18fba733d5bb715beef4f17ace8e16afab39"
+    },
+    {
+      "path": "Build/WebGL-release.loader.js",
+      "size": 117893,
+      "sha256": "e4acc37b7ac6d34a5676c59b23358a65a156d8983d8f243049993ba4d455d72b"
+    },
+    {
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "size": 2335,
+      "sha256": "fbf7f022a139c7834679c61a8c13414eb30acfbedb8b51b88b73aa25d85709b0"
+    }
+  ],
+  "split": [
+    {
+      "path": "Build/WebGL-release.data.unityweb",
+      "size": 34654829,
+      "sha256": "9900e2a53c7e59ab49c85da11ac9a2ea52b30e33498953d14b147c8890dc3dc5",
+      "parts": [
+        {
+          "path": "Build/WebGL-release.data.unityweb.part000",
+          "size": 8000000,
+          "sha256": "87e908b97b8fe3bcc02e75b0d5472ea580de2f89a54c3f8a5086fb28e6f6fa3c"
+        },
+        {
+          "path": "Build/WebGL-release.data.unityweb.part001",
+          "size": 8000000,
+          "sha256": "7517beec121410be1c03d9b9696f90815f79dc1b2c818f9f89e22a426cc657c3"
+        },
+        {
+          "path": "Build/WebGL-release.data.unityweb.part002",
+          "size": 8000000,
+          "sha256": "fdd61d799c65b741e993a7bcc25d14c2863c3e7857e4c3ec96aab368f15879a5"
+        },
+        {
+          "path": "Build/WebGL-release.data.unityweb.part003",
+          "size": 8000000,
+          "sha256": "b2afb586286db011b02621e8cfa300efad2beabdf660ea1edd64f78409801efb"
+        },
+        {
+          "path": "Build/WebGL-release.data.unityweb.part004",
+          "size": 2654829,
+          "sha256": "460d5e7bc9dc1f2318584da6e301729e87f858f73fbe1c9ebc16dfa9d6dae19e"
+        }
+      ]
+    },
+    {
+      "path": "Build/WebGL-release.wasm.unityweb",
+      "size": 10865919,
+      "sha256": "93f92e74f9a82d52950883791be37b1a570687fafac9db5b6d3b068d82e026be",
+      "parts": [
+        {
+          "path": "Build/WebGL-release.wasm.unityweb.part000",
+          "size": 8000000,
+          "sha256": "fdf7c6a32bb021f72ac2a0c0d72c3275679680690fb55491cb467dedc4ba1614"
+        },
+        {
+          "path": "Build/WebGL-release.wasm.unityweb.part001",
+          "size": 2865919,
+          "sha256": "9f02d4876eb700157f4edf990c49f4b9feac0733815a351be788e0ac8265b57d"
+        }
+      ]
+    }
+  ]
+}
